@@ -1,0 +1,55 @@
+.banner {
+  min-height: 200px;
+  height: 80vh;
+  position: relative;
+  background: url("https://cdnb.artstation.com/p/assets/images/images/013/677/999/large/ze-mu-1treehouse.jpg?1540660461");
+  background-position: 50% 78%;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  color: #ff7779 !important;
+  text-transform: inherit !important;
+  font-weight: 900 !important;
+  border-radius: 4px !important;
+}
+
+.banner__info {
+  color: #ffffff;
+  padding: 5vw;
+  padding-top: 35vh;
+  max-width: 300px;
+}
+.banner__info h1 {
+  font-size: 38px;
+  font-weight: 800;
+  padding: 0px 0px;
+}
+
+.banner__info h5 {
+  padding: 8px 0px;
+}
+
+.banner__info button {
+  text-transform: none;
+  padding: 5px 10px;
+  max-width: 130px;
+  border-radius: 7px;
+  margin: 5px 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner {
+    height: 50vh;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b32cdb96-611b-4b81-b673-663b56832444/dd7kzeq-c148c89d-2ca6-4da0-bddb-7c193ad900c4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjMyY2RiOTYtNjExYi00YjgxLWI2NzMtNjYzYjU2ODMyNDQ0XC9kZDdremVxLWMxNDhjODlkLTJjYTYtNGRhMC1iZGRiLTdjMTkzYWQ5MDBjNC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.LiznOJ37V5BFKpOK25MYfKK7IMP34VhFZOoi4tPWldE");
+    background-position: 25% 13%;
+  }
+  .banner__info {
+    padding-top: 20vh;
+  }
+}

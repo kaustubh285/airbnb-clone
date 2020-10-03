@@ -19,8 +19,10 @@ function Header() {
       </div>
       <div className='header__right'>
         <p>Become a host</p>
-        <LanguageIcon />
-        <ExpandMoreIcon />
+        <div>
+          <LanguageIcon />
+          <ExpandMoreIcon />
+        </div>
         <Avatar />
       </div>
     </div>
