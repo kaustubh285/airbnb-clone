@@ -2,7 +2,7 @@
   z-index: 2;
   position: absolute;
   top: 35px;
-
+  left: 28%;
   width: 100vw;
 }
 
@@ -48,6 +48,10 @@
   background-color: white;
 }
 @media only screen and (max-width: 500px) {
+  .searchDate {
+    left: 0%;
+  }
+
   .searchDate > h4 {
     justify-content: space-evenly;
     padding: 0px;
