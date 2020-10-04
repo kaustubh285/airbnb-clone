@@ -1,0 +1,33 @@
+.footer {
+  font-size: 14px;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.copyRights {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.links > a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .links > a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
