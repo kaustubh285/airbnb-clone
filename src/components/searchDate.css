@@ -1,0 +1,73 @@
+.searchDate {
+  z-index: 2;
+  position: absolute;
+  top: 35px;
+
+  width: 100vw;
+}
+
+.rdrDateRangePickerWrapper {
+  flex-wrap: wrap-reverse;
+}
+
+.searchDate > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+
+  background-color: white;
+  left: 0;
+}
+
+.searchDate > input {
+  width: 559px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  height: 15px;
+  border: none;
+}
+
+.searchDate > input:focus {
+  outline: none;
+}
+
+.searchDate > button {
+  position: absolute;
+  top: 421px;
+  text-transform: inherit;
+  background-color: #ff7779;
+  color: white;
+  width: 579px;
+}
+
+.searchDate > button:hover {
+  color: #ff7779;
+  background-color: white;
+}
+@media only screen and (max-width: 500px) {
+  .searchDate > h4 {
+    justify-content: space-evenly;
+    padding: 0px;
+    width: 100vw;
+  }
+  .searchDate > input {
+    font-size: large;
+    padding: 5px;
+    width: 95vw;
+  }
+
+  .searchDate > button {
+    top: 401px;
+    width: 100vw;
+  }
+
+  .rdrCalendarWrapper {
+    width: 100vw;
+  }
+  .rdrDefinedRangesWrapper {
+    display: none;
+  }
+}
